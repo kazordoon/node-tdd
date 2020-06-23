@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "babel-node ./server.js",
+    "start:dev": "NODE_ENV=development babel-node ./server.js",
     "lint": "npx eslint src/* tests/unit/**/* tests/integration/**/*",
     "test": "npm run test:unit && npm run test:integration",
     "test:integration": "NODE_ENV=test mocha --require @babel/register --config tests/integration/mocharc.json tests/integration/**/*.spec.js",
