@@ -1,0 +1,9 @@
+{
+  "require": [
+    "tests/integration/helpers.js",
+    "tests/integration/global.js"
+  ],
+  "slow": 5000,
+  "timeout": 5000,
+  "reporter": "spec"
+}

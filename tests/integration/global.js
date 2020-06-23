@@ -1,6 +1,4 @@
-before(() => {
-  return setupApp()
-    .then(app => {
-      global.request = supertest(app)
-    })
-})
+setupApp()
+  .then(app => {
+    global.request = supertest(app)
+  })
