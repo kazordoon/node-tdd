@@ -1,4 +1,5 @@
 import express from 'express'
+import './config/env'
 
 import routes from './routes'
 import database from './config/database'

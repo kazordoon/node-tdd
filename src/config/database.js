@@ -3,7 +3,7 @@ import mongoose from 'mongoose'
 mongoose.Promise = global.Promise
 
 const config = {
-  uri: 'mongodb://localhost:27017/node-tdd',
+  uri: process.env.MONGODB_URI,
   options: {
     useNewUrlParser: true,
     useCreateIndex: true
