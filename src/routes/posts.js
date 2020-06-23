@@ -1,6 +1,6 @@
 import express from 'express'
 import PostsController from '../controllers/posts'
-import Post from '../models/Post'
+import Post from '../models/posts'
 
 const router = express.Router()
 
